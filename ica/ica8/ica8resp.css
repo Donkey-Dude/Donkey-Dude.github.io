@@ -73,6 +73,28 @@
         color: #fff;
       }
 
-      @media screen and (min-width: 600px){
-        
-      }
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header ul {
+    display: flex;
+  }
+
+  header a {
+    border-top: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
