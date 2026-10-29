@@ -1,0 +1,12 @@
+:root {
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+button,input {
+    background-color: brown;
+}
+
+p {
+    color: goldenrod;
+}
